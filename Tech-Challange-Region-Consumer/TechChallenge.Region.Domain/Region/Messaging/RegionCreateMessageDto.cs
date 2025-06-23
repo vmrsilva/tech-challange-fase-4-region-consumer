@@ -10,5 +10,10 @@ namespace TechChallange.Region.Domain.Region.Messaging
     {
         public required string Name { get; init; }
         public required string Ddd { get; init; }
+
+        public override string ToString()
+        {
+            return $"Name: {Name}, Ddd: {Ddd}";
+        }
     }
 }
