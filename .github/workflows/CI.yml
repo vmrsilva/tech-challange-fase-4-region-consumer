@@ -27,7 +27,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Restore packages - ♻️
-      run: dotnet restore ./Tech-Challange-Region-Consumer.sln
+      run: dotnet restore ./Tech-Challange-Region-Consumer/Tech-Challange-Region-Consumer.sln
 
     - name: Build Solution - 🏗️
       run: dotnet build ./Tech-Challange-Region-Consumer.sln --no-restore --configuration Release
