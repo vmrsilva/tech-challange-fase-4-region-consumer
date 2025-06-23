@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallange.Region.Domain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallange.Infrastructure", "TechChallange.Infrastructure\TechChallange.Infrastructure.csproj", "{E201C893-F0F4-44E3-8965-00E14984A323}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Region.Consumer.Tests", "Region.Consumer.Tests\Region.Consumer.Tests.csproj", "{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E201C893-F0F4-44E3-8965-00E14984A323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E201C893-F0F4-44E3-8965-00E14984A323}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E201C893-F0F4-44E3-8965-00E14984A323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
