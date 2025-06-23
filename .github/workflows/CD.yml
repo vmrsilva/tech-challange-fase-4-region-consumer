@@ -39,6 +39,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: ./
-        file: ./TechChallenge.Contact.Api/Dockerfile
+        file: ./Tech-Challange-Region-Consumer/Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/techchallange-region-consumer:latest, ${{ secrets.DOCKERHUB_USERNAME }}/tech-challenge-contact:${{ github.run_number }}
