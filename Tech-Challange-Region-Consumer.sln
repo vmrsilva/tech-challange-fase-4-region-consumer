@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallange.Region.Domain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechChallange.Infrastructure", "TechChallange.Infrastructure\TechChallange.Infrastructure.csproj", "{E201C893-F0F4-44E3-8965-00E14984A323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Region.Consumer.Tests", "Region.Consumer.Tests\Region.Consumer.Tests.csproj", "{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Region.Consumer.Tests", "Region.Consumer.Tests\Region.Consumer.Tests.csproj", "{1BABA1FC-B169-4F1D-B89B-E777BB4ECC6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
